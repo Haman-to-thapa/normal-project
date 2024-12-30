@@ -1,6 +1,8 @@
+
 const employees = [
   {
     "id": 1,
+    "firstName": "Aarav",
     "email": "employee1@example.com",
     "password": "123",
     "tasks": [
@@ -34,10 +36,17 @@ const employees = [
         "taskDate": "2024-12-18",
         "category": "Customer Relations"
       }
-    ]
+    ],
+    "taskNumbers": {
+      "active": 2,
+      "newTask": 1,
+      "completed": 1,
+      "failed": 0
+    }
   },
   {
     "id": 2,
+    "firstName": "Ishaan",
     "email": "employee2@example.com",
     "password": "123",
     "tasks": [
@@ -61,10 +70,17 @@ const employees = [
         "taskDate": "2024-12-19",
         "category": "Management"
       }
-    ]
+    ],
+    "taskNumbers": {
+      "active": 1,
+      "newTask": 1,
+      "completed": 0,
+      "failed": 0
+    }
   },
   {
     "id": 3,
+    "firstName": "Advika",
     "email": "employee3@example.com",
     "password": "123",
     "tasks": [
@@ -98,10 +114,17 @@ const employees = [
         "taskDate": "2024-12-10",
         "category": "Finance"
       }
-    ]
+    ],
+    "taskNumbers": {
+      "active": 2,
+      "newTask": 1,
+      "completed": 1,
+      "failed": 1
+    }
   },
   {
     "id": 4,
+    "firstName": "Riya",
     "email": "employee4@example.com",
     "password": "123",
     "tasks": [
@@ -125,10 +148,17 @@ const employees = [
         "taskDate": "2024-12-25",
         "category": "HR"
       }
-    ]
+    ],
+    "taskNumbers": {
+      "active": 1,
+      "newTask": 1,
+      "completed": 0,
+      "failed": 0
+    }
   },
   {
     "id": 5,
+    "firstName": "Aryan",
     "email": "employee5@example.com",
     "password": "123",
     "tasks": [
@@ -152,17 +182,25 @@ const employees = [
         "taskDate": "2024-12-18",
         "category": "HR"
       }
-    ]
+    ],
+    "taskNumbers": {
+      "active": 1,
+      "newTask": 1,
+      "completed": 1,
+      "failed": 0
+    }
   }
 ];
 
 const admin = [
   {
     "id": 1,
+    "firstName": "Vikram",
     "email": "admin@example.com",
     "password": "123"
   }
 ];
+
 
 
 export const setlocalStorage = () => {
